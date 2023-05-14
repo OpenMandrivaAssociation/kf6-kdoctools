@@ -31,6 +31,8 @@ BuildRequires: cmake(KF6I18n)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(libxslt)
 BuildRequires: libxml2-utils
+BuildRequires: docbook-dtds
+BuildRequires: perl(URI::Escape)
 Requires: %{libname} = %{EVRD}
 
 %description
