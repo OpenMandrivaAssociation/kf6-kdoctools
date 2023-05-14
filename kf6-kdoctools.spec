@@ -30,6 +30,7 @@ BuildRequires: cmake(KF6Archive)
 BuildRequires: cmake(KF6I18n)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(libxslt)
+BuildRequires: libxml2-utils
 Requires: %{libname} = %{EVRD}
 
 %description
