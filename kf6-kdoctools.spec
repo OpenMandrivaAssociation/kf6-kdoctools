@@ -34,6 +34,8 @@ BuildRequires: libxml2-utils
 BuildRequires: docbook-dtds
 BuildRequires: perl(URI::Escape)
 Requires: %{libname} = %{EVRD}
+Requires: docbook-dtd45-xml
+Requires: docbook-style-xsl
 
 %description
 Create documentation from DocBook
