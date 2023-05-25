@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DocTools
 %define devname %mklibname KF6DocTools -d
-%define git 20230513
+%define git 20230525
 
 Name: kf6-kdoctools
 Version: 5.240.0
@@ -75,13 +75,13 @@ Create documentation from DocBook
 %find_lang %{name} --all-name --with-qt --with-html --with-man
 
 %files -f %{name}.lang
-%{_bindir}/checkXML5
-%{_bindir}/meinproc5
+%{_bindir}/checkXML6
+%{_bindir}/meinproc6
 %{_datadir}/kf6/kdoctools
-%{_mandir}/man1/checkXML5.1*
-%{_mandir}/man1/meinproc5.1*
-%{_mandir}/man7/kf5options.7*
-%{_mandir}/man7/qt5options.7*
+%{_mandir}/man1/checkXML6.1*
+%{_mandir}/man1/meinproc6.1*
+%{_mandir}/man7/kf6options.7*
+%{_mandir}/man7/qt6options.7*
 
 %files -n %{devname}
 %{_includedir}/KF6/KDocTools
