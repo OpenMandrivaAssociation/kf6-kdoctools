@@ -1,6 +1,6 @@
 %define libname %mklibname KF6DocTools
 %define devname %mklibname KF6DocTools -d
-%define git 20231005
+%define git 20231010
 
 Name: kf6-kdoctools
 Version: 5.240.0
